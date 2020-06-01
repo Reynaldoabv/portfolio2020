@@ -15,7 +15,7 @@ export default function TextAnimation2({ title, duration, delay }) {
             <div className="text-animation-2">
               {
                 title === "Get in touch" ? (
-                  <a className="btn btn-contact" href="mailto:reynaldob.webdev@gmail.com" target="_blank">Get in touch</a>
+                  <a className="btn btn-contact" href="mailto:reynaldob.webdev@gmail.com" target="_blank" rel="noopener noreferrer">Get in touch</a>
                 ) : <div className="text-animation-2">
                   <h1 className={`${ title && title.length > 25 ? "paragraph" : "title" }`}>{title}</h1>
                 </div>

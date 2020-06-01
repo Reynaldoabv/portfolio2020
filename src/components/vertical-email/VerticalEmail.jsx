@@ -14,7 +14,7 @@ export default function VerticalEmail({ email, delay, duration }) {
         <div style={props}>
             <div className="vertical-email">
                 <div className="second">
-                    <a href="mailto:reynaldob.webdev@gmail.com" target="_blank" className="third">{email}</a>
+                    <a href="mailto:reynaldob.webdev@gmail.com" target="_blank" rel="noopener noreferrer" className="third">{email}</a>
                 </div>
             </div>
         </div>

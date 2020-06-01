@@ -3,11 +3,17 @@ import './about-me.scss'
 
 import ProfileCard from '../../components/profile-card/ProfileCard'
 import Skills from '../../components/skills/Skills'
-import AboutMeText from '../../components/aboutMe-text/AboutMeText'
+import ParagraphAnimation from '../../components/paragraph-animation/ParagraphAnimation'
 
 import Titles from '../../components/titles/Titles'
 
 const AboutMe = props => {
+
+    const [aboutMe] = useState({
+        delay: 750,
+        duration: 2000,
+        componentName: 'aboutMe'
+    })
 
     const [titles] = useState({
         title: "About",
@@ -23,7 +29,7 @@ const AboutMe = props => {
                     <Titles title={titles.title} title2={titles.title2} delay={titles.delay} duration={titles.duration} />
                 </div>
                 <div className="col-10 col-lg-7">
-                    <AboutMeText />
+                    <ParagraphAnimation delay={aboutMe.delay} duration={aboutMe.duration} componentName={aboutMe.componentName}/>
                     <div className="about-me-skills">
                         <Skills />
                     </div>

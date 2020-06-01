@@ -26,7 +26,7 @@ const Home = props => {
     })
 
     const [titles4] = useState({
-        title: "I'm a software engineer based in Chile, specialized in creating Javascript web apps mostly with React JS library. My main goal is build products that provide great UI and performant experiences",
+        title: "I'm a software engineer based in Chile, specialized in creating web apps mostly with the MERN stack. My main goal is build products that provide great UI and performant experiences",
         delay: 2500,
         duration: 2000           
     })    
