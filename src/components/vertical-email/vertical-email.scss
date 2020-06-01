@@ -1,0 +1,56 @@
+.vertical-email {
+    width: 40px;
+    position: fixed;
+    bottom: 150px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: #4fb948;
+
+    &:hover {
+        color: #fff;
+    }
+
+    .second {
+        display: flex;
+	    flex-direction: column;
+	    -webkit-box-align: center;
+	    align-items: center;
+        position: relative;
+        
+        a {
+            display: inline-block;
+            text-decoration-skip-ink: auto;
+            color: inherit;
+            position: relative;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+            transition-property: all;
+            transition-duration: 0.25s;
+            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition-delay: 0s;	
+            writing-mode: vertical-rl;
+
+            .third{
+                font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+                font-size: 12px;
+                letter-spacing: 0.1em;
+                -webkit-writing-mode: vertical-rl;
+                writing-mode: vertical-rl;
+                margin: 20px auto;
+                padding: 10px;
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 1px;
+                height: 80px;
+                background-color: #fff;
+                margin: 0px auto;
+            }
+        
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.footer{
+    background: #040404;
+    
+    .text {
+        color: #fff;
+        .logo{
+            height: 30px;
+            width: auto;
+        }
+    }
+    
+
+    .icons-footer a{
+        color: #fff; 
+        text-decoration: none;      
+        
+        &:hover{
+            transition-duration: 600ms;
+            color: #4fb948;
+        }
+    }
+
+    .icons-footer {
+        display: flex;
+        justify-content: center;
+
+        .icons{
+            height: 30px;
+            width: auto;
+            margin: 5px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.text-animation{
+    background: transparent;
+    color: #4fb948;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+
+    .text{
+        font-size: 1rem;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    @media screen and (max-width: 950px) { 
+        // .size{
+        //     font-size: 1.8rem;
+        // }
+    }
+
+    @media screen and (max-width: 650px) { 
+        // .size{
+        //     font-size: 1.5rem;
+        // }
+    }
+    
+    @media screen and (max-width: 450px) { 
+        // .size{
+        //     font-size: 1rem;
+        // }
+    }
+    
+}
+

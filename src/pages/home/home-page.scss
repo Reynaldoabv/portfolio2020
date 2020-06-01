@@ -1,0 +1,22 @@
+.home-page {
+    background: #040404;
+    background-size: cover;
+    background-position: center;
+    height: 63.6vh;
+
+    h3{
+        color: #fff;
+    }
+
+    .image-container {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        
+
+        .image {
+            height: 76vh;
+            width: 900px;
+        }
+    }
+}
