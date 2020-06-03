@@ -32,8 +32,8 @@ const ServicePage = props => {
                     <div className="text-center">
                         <Titles title={titles.title} title2={titles.title2} delay={titles.delay} duration={titles.duration}/>
                     </div>
-                    <ParagraphAnimation delay={service.delay} duration={service.duration} componentName={service.componentName}/>
-                    <div className="d-block d-lg-flex">
+                    <ParagraphAnimation className="paragraph" delay={service.delay} duration={service.duration} componentName={service.componentName}/>
+                    <div className="d-block d-md-flex">
                         {
                             services.map(service => (                        
                                 <ServiceCard key={service.id} service={service} />

@@ -13,7 +13,7 @@
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
         overflow: hidden;
         position: absolute;
-        top: 30%;
+        top: 27%;
         left: 41.5%;
       }
       
@@ -76,14 +76,7 @@
         &:hover .social-icons li a {
           transform: translateY(0px);
           opacity: 1;
-          
         }
-      
-        // .social-icons li a {
-        //   transition: 0.5s;
-        //   font-size: 5px;
-        //   line-height: 50px;
-        // }
       
         &:hover .social-icons li {
           &:nth-child(1) a {

@@ -5,7 +5,7 @@ import Logo from '../../assets/LogoTransp2.png'
 import './header.scss'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = (props) => {
   const [collapsed, setCollapsed] = useState(true);
@@ -22,19 +22,19 @@ const Header = (props) => {
         <Collapse isOpen={!collapsed} navbar >
           <Nav navbar>
             <NavItem>
-              <Link className="links-mobile" to="/">Home</Link>
+              <NavLink className="links-mobile" to="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <Link className="links-mobile" to="/about-me">About Me</Link>
+              <NavLink className="links-mobile" to="/about-me">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <Link className="links-mobile" to="/projects">Projects</Link>
+              <NavLink className="links-mobile" to="/projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <Link className="links-mobile" to="/services">Services</Link>
+              <NavLink className="links-mobile" to="/services">Services</NavLink>
             </NavItem>
             <NavItem>
-              <Link className="links-mobile" to="/contacts">Contacts</Link>
+              <NavLink className="links-mobile" to="/contacts">Contacts</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
@@ -47,19 +47,19 @@ const Header = (props) => {
             <Link to="/" className=""><img className="img-fluid logo" src={Logo} alt="Logo-RB"/></Link>
           </NavItem>
           <NavItem className="navItem">
-            <Link className="links" to="/">Home</Link>
+            <NavLink className="links" to="/" exact activeClassName="current">Home</NavLink>
           </NavItem>          
           <NavItem className="navItem">
-            <Link className="links" to="/about-me">About Me</Link>
+            <NavLink className="links" to="/about-me" exact activeClassName="current">About Me</NavLink>
           </NavItem>
           <NavItem className="navItem">
-            <Link className="links" to="/projects">Projects</Link>
+            <NavLink className="links" to="/projects" exact activeClassName="current">Projects</NavLink>
           </NavItem>
           <NavItem className="navItem">
-            <Link className="links" to="/services">Services</Link>
+            <NavLink className="links" to="/services" exact activeClassName="current">Services</NavLink>
           </NavItem>
           <NavItem className="navItem">
-            <Link className="links" to="/contacts">Contacts</Link>
+            <NavLink className="links" to="/contacts" exact activeClassName="current">Contacts</NavLink>
           </NavItem>
         </div>
       </Navbar>

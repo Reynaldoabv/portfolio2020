@@ -3,7 +3,8 @@
     margin-bottom: 0px;
     padding: 20px;
     background-color: #040404;
-    color: #fff;
+    color: rgb(91, 93, 99);
+    font-weight: bold;
 
     .row{
         margin-left: 0;
@@ -11,6 +12,7 @@
 
         .paragraph{
             margin: 20px 0 10px 0;
+            font-size: 1.3rem;
         }
     }
 }

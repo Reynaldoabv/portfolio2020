@@ -1,4 +1,5 @@
 import React from 'react'
+import './about-me-paragraph.scss'
 
 const AboutMeParagraph = props => {
     return (

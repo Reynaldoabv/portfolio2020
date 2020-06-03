@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './about-me.scss'
+import './about-me-page.scss'
 
 import ProfileCard from '../../components/profile-card/ProfileCard'
 import Skills from '../../components/skills/Skills'

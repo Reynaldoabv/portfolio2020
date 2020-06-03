@@ -25,6 +25,10 @@
         .navItem{
             list-style: none;
             margin-left: 20px;
+
+            a.current{
+                color: #4fb948;
+            }
     
             .logo{
                 height: 50px;

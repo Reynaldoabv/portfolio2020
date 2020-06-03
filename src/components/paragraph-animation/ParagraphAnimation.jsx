@@ -4,6 +4,8 @@ import { Spring } from 'react-spring/renderprops'
 
 import AboutMeParagraph from '../about-me-paragraph/AboutMeParagraph'
 import ServiceParagraph from '../service-paragraph/ServiceParagraph'
+import ContactsParagraph from '../contacts-paragraph/ContactsParagraph'
+
 
 const AboutMeText = ({ delay, duration, componentName }) => {
     return (
@@ -16,6 +18,7 @@ const AboutMeText = ({ delay, duration, componentName }) => {
                 <div style={props}>
                     { componentName === 'aboutMe' ? <AboutMeParagraph /> : null }
                     { componentName === 'services' ? <ServiceParagraph /> : null }
+                    { componentName === 'contacts' ? <ContactsParagraph /> : null }
                 </div>
             )}
         </Spring>       

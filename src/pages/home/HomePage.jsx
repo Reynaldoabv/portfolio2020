@@ -9,31 +9,31 @@ const Home = props => {
 
     const [titles] = useState({
             title: "Hi there, I am",
-            delay: 750,
+            delay: 250,
             duration: 750            
     })
 
     const [titles2] = useState({
         title: "Reynaldo Borges.",
-        delay: 2000,
+        delay: 1500,
         duration: 2000           
     })
 
     const [titles3] = useState({
         title: "Front-End Developer",
-        delay: 2000,
+        delay: 1500,
         duration: 2000           
     })
 
     const [titles4] = useState({
         title: "I'm a software engineer based in Chile, specialized in creating web apps mostly with the MERN stack. My main goal is build products that provide great UI and performant experiences",
-        delay: 2500,
+        delay: 2000,
         duration: 2000           
     })    
 
     const [titles5] = useState({
         title: "Get in touch",
-        delay: 3000,
+        delay: 2500,
         duration: 2000           
     }) 
 
